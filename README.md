@@ -17,43 +17,42 @@ In our project we try to find out why an item is a Best Seller
 
 ***Data Acquisition***
 
-Using **Selenium** we managed to scrape more the 100,000 data cells on more than 13,000 items in Amazon
-Both Best Seller and regular items
+- Using **Selenium** we managed to scrape more the 100,000 data cells on more than 13,000 items in Amazon Both Best Seller and regular items
 
 ***Data Handling***
 
-With the **BeautifulSoup ( bs4 )** library we collected and arranged the data and exported the data into a .csv file
-We used various methodes in order to clean tha data : 
-- Removing duplicates 
-- Removing corrupted values 
-- Normalizing
-- Transform all data to type Float
+- With the **BeautifulSoup ( bs4 )** library we collected and arranged the data and exported the data into a .csv file
+- We used various methodes in order to clean tha data : 
+  - Removing duplicates 
+  - Removing corrupted values 
+  - Normalizing
+  - Transform all data to type Float
 
 ***Exploratory Data Analysis ( EDA )***
 
-In oredr to analyze our DataFrame we used **seaborn** and **matplotlib** visualization libraries
-- Pie plot
-- Histogram
-- Boxplot
-- Scatter plot
-- pairplot
+- In oredr to analyze our DataFrame we used **seaborn** and **matplotlib** visualization libraries
+  - Pie plot
+  - Histogram
+  - Boxplot
+  - Scatter plot
+  - pairplot
 
-Dealing with outliers using IQR variable
+- Dealing with outliers using IQR variable
 
-Using **Chi Test** to determine if there is correlation between data features
+- Using **Chi Test** to determine if there is correlation between data features
 
 ***Supervised Learning***
 
-**prediction models :**
-- Logistic Regression, r2_score
-- KNN
+- **prediction models :**
+  - Logistic Regression, r2_score
+  - KNN
 
 ***Unsupervised Learning***
 
-**prediction modules :**
-- K-means, silhouette score
-- Hierarchical agglomerative clustering
-- DBSCAN
+- **prediction models :**
+  - K-means, silhouette score
+  - Hierarchical agglomerative clustering
+  - DBSCAN
 
 ***
 
