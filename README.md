@@ -4,6 +4,8 @@
 # What makes an item in Amazon  a Best Seller ?
 
 In our project we try to find out why an item is a Best Seller
+Jupyter Notebook File .ipynb:
+https://github.com/yanivlav/AmazonBestSellerPrediction/blob/master/AmazonBestSellersPrediction.ipynb
 
 ## 🌟 Highlights
 
